@@ -1,5 +1,5 @@
-INSERT INTO item (id, name) VALUES (1, 'USA');
-INSERT INTO item (id, name) VALUES (2, 'France');
-INSERT INTO item (id, name) VALUES (3, 'Brazil');
-INSERT INTO item (id, name) VALUES (4, 'Italy');
-INSERT INTO item (id, name) VALUES (5, 'Canada');
+INSERT INTO item (id, name, price) VALUES (1, 'Shoes', 60.00);
+INSERT INTO item (id, name, price) VALUES (2, 'T-Short', 20.00);
+INSERT INTO item (id, name, price) VALUES (3, 'Jeans', 40.00);
+INSERT INTO item (id, name, price) VALUES (4, 'Sweater', 40.00);
+INSERT INTO item (id, name, price) VALUES (5, 'Hat', 15.00);
