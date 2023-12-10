@@ -27,6 +27,14 @@ tasks.named('bootBuildImage') {
 	builder = 'paketobuildpacks/builder-jammy-base:latest'
 }
 
+tasks.named("bootJar") {
+	launchScript{
+		enabled = true
+	}
+	enabled = true
+	archiveFileName = "server.${archiveExtension.get()}"
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
